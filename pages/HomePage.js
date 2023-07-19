@@ -50,7 +50,7 @@ const HomePage = () => {
               link="/sell"
             />
           </div>
-          <Card styles={{ flex: 3 }} title="Find a dealer" link="/dealers" />
+          <Card styles={{ flex: 3 }} title="Find a dealer" link="/dealer" />
         </div>
       </div>
     </>

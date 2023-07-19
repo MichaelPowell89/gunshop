@@ -1,0 +1,31 @@
+/* Navbar.module.css */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    color: white;
+  }
+  
+  .icon {
+    cursor: pointer;
+    font-size: 30px;
+    padding: 5px;
+    transition: 0.2s ease-in-out;
+  }
+
+  .icon:hover {
+    color: #f0ad4e;
+  }
+  
+  .settingsCog:hover {
+    transform: rotate(360deg) scale(1.1);
+  }
+
+  .bookmarkIcon {
+    font-weight: 500;
+  }
+
+  .bookmarkIcon:hover {
+    font-weight: 900 !important;
+  }
